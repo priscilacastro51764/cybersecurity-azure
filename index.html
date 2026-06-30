@@ -1,1 +1,433 @@
-O melhor site do mundo
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Azure Cloud</title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+
+body{
+font-family:Inter,sans-serif;
+background:#020617;
+color:white;
+scroll-behavior:smooth;
+}
+
+.glass{
+background:rgba(255,255,255,.05);
+backdrop-filter:blur(15px);
+border:1px solid rgba(255,255,255,.08);
+}
+
+.card:hover{
+transform:translateY(-10px);
+transition:.3s;
+box-shadow:0 0 30px #0ea5e9;
+}
+
+.hero{
+background:
+radial-gradient(circle at top,#2563eb55,transparent 60%),
+#020617;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+
+<nav class="glass fixed w-full z-50">
+
+<div class="max-w-7xl mx-auto flex justify-between items-center p-5">
+
+<h1 class="text-2xl font-bold text-sky-400">
+☁ Azure
+</h1>
+
+<div class="hidden md:flex gap-8">
+
+<a href="#services" class="hover:text-sky-400">Services</a>
+<a href="#about" class="hover:text-sky-400">About</a>
+<a href="#stats" class="hover:text-sky-400">Stats</a>
+
+</div>
+
+<button class="bg-sky-500 hover:bg-sky-600 px-5 py-2 rounded-lg">
+Get Started
+</button>
+
+</div>
+
+</nav>
+
+<!-- HERO -->
+
+<section class="hero min-h-screen flex items-center">
+
+<div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-16 px-8">
+
+<div>
+
+<h2 class="text-sky-400 font-semibold text-xl mb-4">
+Microsoft Azure
+</h2>
+
+<h1 class="text-6xl font-extrabold leading-tight">
+
+Build your future
+
+<span class="text-sky-400">
+
+in the Cloud
+
+</span>
+
+</h1>
+
+<p class="text-gray-400 mt-8 text-lg">
+
+Deploy applications, scale infrastructure and
+build secure cloud solutions with Azure.
+
+</p>
+
+<div class="mt-10 flex gap-5">
+
+<button class="bg-sky-500 px-7 py-3 rounded-xl hover:bg-sky-600">
+
+Explore Azure
+
+</button>
+
+<button class="border border-sky-500 px-7 py-3 rounded-xl">
+
+Documentation
+
+</button>
+
+</div>
+
+</div>
+
+<div class="flex justify-center items-center">
+
+<div class="w-80 h-80 rounded-full bg-sky-500/20 flex items-center justify-center animate-pulse">
+
+<div class="text-8xl">
+
+☁️
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- SERVICES -->
+
+<section id="services" class="py-24">
+
+<div class="max-w-7xl mx-auto px-8">
+
+<h2 class="text-5xl font-bold text-center mb-16">
+
+Azure Services
+
+</h2>
+
+<div class="grid md:grid-cols-3 gap-8">
+
+<div class="glass card rounded-2xl p-8">
+
+<div class="text-5xl mb-4">
+
+💻
+
+</div>
+
+<h3 class="text-2xl font-bold">
+
+Virtual Machines
+
+</h3>
+
+<p class="mt-4 text-gray-400">
+
+Create Linux and Windows virtual servers in minutes.
+
+</p>
+
+</div>
+
+<div class="glass card rounded-2xl p-8">
+
+<div class="text-5xl mb-4">
+
+🗄
+
+</div>
+
+<h3 class="text-2xl font-bold">
+
+Azure SQL
+
+</h3>
+
+<p class="mt-4 text-gray-400">
+
+Fully managed relational database.
+
+</p>
+
+</div>
+
+<div class="glass card rounded-2xl p-8">
+
+<div class="text-5xl mb-4">
+
+🤖
+
+</div>
+
+<h3 class="text-2xl font-bold">
+
+Azure AI
+
+</h3>
+
+<p class="mt-4 text-gray-400">
+
+Artificial Intelligence ready for production.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ABOUT -->
+
+<section id="about" class="py-24 bg-slate-900">
+
+<div class="max-w-6xl mx-auto px-8">
+
+<h2 class="text-5xl font-bold text-center mb-16">
+
+Why Azure?
+
+</h2>
+
+<div class="grid md:grid-cols-2 gap-12">
+
+<div>
+
+<h3 class="text-3xl font-bold text-sky-400">
+
+Enterprise Security
+
+</h3>
+
+<p class="mt-5 text-gray-400">
+
+Protect applications with Microsoft's global
+security infrastructure.
+
+</p>
+
+</div>
+
+<div>
+
+<h3 class="text-3xl font-bold text-sky-400">
+
+Global Infrastructure
+
+</h3>
+
+<p class="mt-5 text-gray-400">
+
+Deploy workloads across dozens of Azure regions
+around the world.
+
+</p>
+
+</div>
+
+<div>
+
+<h3 class="text-3xl font-bold text-sky-400">
+
+High Availability
+
+</h3>
+
+<p class="mt-5 text-gray-400">
+
+Reliable cloud services with automatic scaling.
+
+</p>
+
+</div>
+
+<div>
+
+<h3 class="text-3xl font-bold text-sky-400">
+
+Developer Friendly
+
+</h3>
+
+<p class="mt-5 text-gray-400">
+
+Support for .NET, Python, Java, Node.js,
+Docker and Kubernetes.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- STATS -->
+
+<section id="stats" class="py-24">
+
+<div class="max-w-6xl mx-auto">
+
+<div class="grid md:grid-cols-4 text-center gap-10">
+
+<div>
+
+<h2 class="text-6xl font-bold text-sky-400">
+
+60+
+
+</h2>
+
+<p class="mt-3">
+
+Regions
+
+</p>
+
+</div>
+
+<div>
+
+<h2 class="text-6xl font-bold text-sky-400">
+
+600+
+
+</h2>
+
+<p class="mt-3">
+
+Cloud Services
+
+</p>
+
+</div>
+
+<div>
+
+<h2 class="text-6xl font-bold text-sky-400">
+
+99.9%
+
+</h2>
+
+<p class="mt-3">
+
+Availability
+
+</p>
+
+</div>
+
+<div>
+
+<h2 class="text-6xl font-bold text-sky-400">
+
+Millions
+
+</h2>
+
+<p class="mt-3">
+
+Customers
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- CTA -->
+
+<section class="py-28 bg-gradient-to-r from-sky-700 to-blue-600">
+
+<div class="text-center">
+
+<h2 class="text-5xl font-bold">
+
+Ready to start?
+
+</h2>
+
+<p class="mt-6 text-xl">
+
+Build, deploy and scale applications with Microsoft Azure.
+
+</p>
+
+<button class="mt-10 bg-white text-blue-700 px-8 py-4 rounded-xl font-bold hover:scale-105 transition">
+
+Start Free
+
+</button>
+
+</div>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer class="bg-slate-950 py-10">
+
+<div class="text-center text-gray-500">
+
+© 2026 Azure Landing Page • Built with HTML + Tailwind CSS
+
+</div>
+
+</footer>
+
+</body>
+
+</html>
